@@ -1,0 +1,74 @@
+body {
+    box-sizing: content-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: rgb(69, 87, 87);
+    padding: 20px 50px;
+    text-align: left;
+    border-bottom: 1px solid rgb(253, 253, 253);
+    
+}
+#foto-cv{
+    width: 200px;
+    border-radius: 8px;
+    border: 8px salid rgb(32, 0, 128);
+ 
+}
+
+
+.secciones a {
+    text-decoration: underline;
+    margin-right: 20px;
+    color: white;
+}
+
+.presentacion{
+    display: flex;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+.info{
+    margin-left: 50px;
+    margin: 50px;
+    text-align: left;
+}
+
+.conoceme {
+    background-color: aliceblue;
+    padding: 100px 300px;
+    
+}
+.comoceme h2{
+    text-align: center;
+    padding-bottom: 100%;
+    color: rgb(137, 134, 130);
+}
+
+.seccion2{
+    text-align: left;
+    width: 70%;
+    margin: 20px 40px
+}
+
+.seccion3 h2 {
+    color: grey;
+    text-align: left;
+}
+.seccion3 ul li {
+    color: black;
+    margin: 10px;
+}
+footer{
+    padding: 5px;
+    background-color:rgb(69, 87, 87);
+    text-align: left;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    color: white;
+}
